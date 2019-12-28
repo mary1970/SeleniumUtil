@@ -10,6 +10,7 @@ public class SeleniumUtil {
         Driver.getDriver().get(pageUrl);
     }
     public WebElement findElement(By locator){
+
         return Driver.getDriver().findElement(locator);
     }
     public void newDriverGetting(String urlPage){
